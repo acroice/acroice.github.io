@@ -63,18 +63,6 @@ My work sits at the intersection of retail operations and applied AI — using d
 <p align="center">
 I love exploring and visualizing data — from raw EDA to model explainability and forecasts.  
 Here are some selected visuals from my recent projects.
-  
-### 🧠 EDA & Insights
-![EDA](assets/plot_eda_weekly_demand.png)
-
-### ⚙️ Model Evaluation
-![Evaluation](assets/plot_model_eval.png)
-
-### 🔮 Forecasting
-![Forecast](assets/plot_forecast_ci.png)
-
-### 🧱 System Design
-![Pipeline Diagram](assets/pipeline_diagram.png)
 
 </p>
 
