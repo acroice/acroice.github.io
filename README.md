@@ -1,82 +1,111 @@
-<!-- Opcjonalny banner: wrzuć plik do assets/banner_3x3.png i odkomentuj blok poniżej -->
-<!--
+<!-- BANNER -->
+<!-- <p align="center">
+  <img src="assets/banner_3x3.png" width="100%" alt="Banner Damian Cichocki 3x3">
+</p> -->
+
+<!-- HEADER -->
+<img src="https://media.tenor.com/w33hdDzoSE0AAAAj/haunter.gif" align="right" width="160"/>
+
+<h1 align="center">Hey! I'm Damian</h1> 
+<h3 align="center">Junior Data Scientist • Python • Machine Learning • Forecasting</h3>
+
 <p align="center">
-  <img src="assets/banner_3x3.png" alt="Damian Cichocki — 3x3" width="100%" />
+  <a href="https://www.linkedin.com/in/damian-cichocki-3x3"><img src="https://img.shields.io/badge/-LinkedIn-blue?logo=Linkedin&logoColor=white" /></a>
+  <a href="https://acroice.github.io"><img src="https://img.shields.io/badge/-Portfolio-0B3B8C?logo=githubpages&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Focus-Forecasting%20%7C%20BI%E2%86%92ML%20%7C%20EDA-1f6feb" />
 </p>
--->
 
-<h3 align="center">Hi, I'm Damian — Junior Data Scientist (3x3)</h3>
+---
+
+## 🧭 About me
+I’m a **Junior Data Scientist** with a strong foundation in business intelligence and a growing focus on machine learning for real-world forecasting and decision systems.
+My work sits at the intersection of retail operations and applied AI — using data to improve planning, efficiency, and business impact.
+     
+🏢 Currently: Junior Data Scientist @ Rossmann Polska  
+⚙️ Working on: forecasting & analytics pipelines (Python · Pandas · scikit-learn · Qlik Sense)  
+💡 Focus: data quality, feature engineering & machine learning foundations  
+🚀 Currently deepening: Git workflow & ML pipeline automation  
+🧠 Philosophy: “Less noise, more signal — data science that drives decisions.”  
+
+---
+<!-- <img src="assets/skull-dungeon-nft.gif" align="right" width="95" style="margin-left:10px; margin-bottom:10px;"/> -->
+
+## ⚙️ Tech Stack
 <p align="center">
-  I turn data into small, useful products: clear analysis → simple model → tiny demo.
+  <img src="https://skillicons.dev/icons?i=python,gcp,git,github,linux,anaconda,postgresql,docker,swift" />
 </p>
 
+💡 **Core:** Python · Pandas · NumPy · scikit-learn · SQL · Qlik Sense  
+📚 **Currently Learning:** XGBoost · Time Series Forecasting · FastAPI · Streamlit · GitHub Actions  
+🚀 **Exploring Next:** RAPIDS (GPU Computing) · Optuna · Docker
+
+---
+
+## 🚀 Featured Projects
+
+**GPU Forecast Platform (MVP)** — GPU-accelerated demand forecasting engine (XGBoost / RAPIDS).  
+→ Benchmarks CPU vs GPU performance, deploys forecasts via FastAPI.  
+🔗 [Repo](#) · [Demo](#)
+
+**Retail EDA Toolkit** — plug-and-play EDA framework for retail datasets.  
+→ Simplifies feature discovery, trend analysis, and KPI visualization.  
+🔗 [Repo](#)
+
+**FPL333 Analytics** — real-time Fantasy Premier League dashboard.  
+→ Tracks scores, transfers, and standings with automated updates.  
+🔗 [Repo](https://github.com/acroice/fpl333) · [Live](https://fpl333.vercel.app/)
+
+---
+
+<img src="assets/pokemon-kanto.gif" align="right" width="145" style="margin-left:10px; margin-bottom:10px;"/>
+
+<!-- 📊 Visuals -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/damian-cichocki-3x3">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-damian--cichocki--3x3-blue?logo=linkedin" />
-  </a>
-  <a href="https://acroice.github.io">
-    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-acroice.github.io-0B3B8C" />
-  </a>
-  <img alt="Focus" src="https://img.shields.io/badge/Focus-DS%20Foundations%20%7C%20Forecasting%20%7C%20BI%E2%86%92ML-1f6feb" />
+I love exploring and visualizing data — from raw EDA to model explainability and forecasts.  
+Here are some selected visuals from my recent projects.
+  
+### 🧠 EDA & Insights
+![EDA](assets/plot_eda_weekly_demand.png)
+
+### ⚙️ Model Evaluation
+![Evaluation](assets/plot_model_eval.png)
+
+### 🔮 Forecasting
+![Forecast](assets/plot_forecast_ci.png)
+
+### 🧱 System Design
+![Pipeline Diagram](assets/pipeline_diagram.png)
+
 </p>
 
----
-
-### 🔎 O mnie (short)
-- **Junior Data Scientist @ Rossmann** — wcześniej 3 lata w analityce (BI/Qlik, SQL, Python).
-- Lubię **małe, skończone rzeczy**: krótka analiza, prosta metryka, lekki interfejs (np. Streamlit).
-- Cel na najbliższe miesiące: **prognozowanie popytu** + „BI ↔ ML” (jak wnieść model do raportów).
+<img src="assets/markiplier.gif" align="right" width="120" style="margin-left:10px; margin-bottom:10px;"/>
 
 ---
+### 📚 Currently Learning
+Practical machine learning foundations through hands-on mini projects
 
-### 🧰 Tech (core → learning)
-**Core:** `Python` · `Pandas` · `NumPy` · `scikit-learn` · `SQL` · `Qlik Sense`  
-**Learning now:** `XGBoost` · `Time Series` · `FastAPI` · `Streamlit` · `GitHub Actions`  
-**Occasionally:** `Docker` · `RAPIDS/cuDF` (w ramach testów/benchmarków)
+- 🧮 **Feature Engineering for Time Series:** lags, rolling stats, calendar patterns  
+- 🔧 **Model Deployment:** Streamlit dashboards & FastAPI endpoints  
+- 🧰 **Automation:** CI/CD and version control for reproducible ML repos  
+- 📈 **Interpretability:** SHAP, feature importance, partial dependence plots
 
 ---
 
-### 🚀 Projekty (na start)
-> krótko i konkretnie: problem → co działa → link. Bez obietnic „AI do wszystkiego”.
-
-| Projekt | Co to robi? | Stack | Linki |
-|---|---|---|---|
-| **GPU Forecast Platform (MVP)** | Bazowe prognozy + porównanie CPU/GPU (M5/Walmart). | Python, Pandas, scikit-learn/XGBoost, (opc. RAPIDS) | [Repo](#) · [Demo](#) |
-| **Retail EDA Starter** | Szkielet do szybkiej analizy: EDA → raport/wykresy. | Python, Pandas, Matplotlib, Jupyter | [Repo](#) |
-| **FPL333 Analytics** | Mini-narzędzia FPL (ranking, „ćwiartki”, API). | Python, Requests, Streamlit | [Repo](#) · [Live](#) |
-
-> Tip: wrzuć do każdego repo `preview.png` i podlinkuj miniaturkę tu poniżej (galeria).
-
----
-
-### 🖼️ Mini-galeria
-<p align="left">
-  <img src="assets/preview_forecast.png" alt="Forecast Preview" height="120" />
-  <img src="assets/preview_eda.png" alt="EDA Preview" height="120" />
-  <img src="assets/preview_fpl.png" alt="FPL Preview" height="120" />
+## 💬 Let's Connect
+<p align="center">
+  <a href="https://www.linkedin.com/in/damian-cichocki-3x3"><img src="https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white" /></a>
+  <a href="damiancichocki@icloud.com"><img src="https://img.shields.io/badge/-Email%20Me-0078D4?logo=gmail&logoColor=white" /></a>
+  <a href="https://acroice.github.io"><img src="https://img.shields.io/badge/-Portfolio-black?logo=githubpages&logoColor=white" /></a>
 </p>
-
-> Pliki trzymaj w `assets/` w tym repo. Nazwy z powyższego przykładu możesz zmienić.
-
----
-
-### 📚 Uczę się teraz
-- **Time Series**: feature’y kalendarzowe, rolling windows, walidacja czasowa.
-- **Model Serving**: proste API w **FastAPI** lub demo w **Streamlit**.
-- **Jakość repo**: `README`, struktura `src/`, `requirements.txt`, mały **CI** (format/lint).
+<img src="assets/skull-dungeon-nft.gif" align="right" width="100" style="margin-left:10px; margin-bottom:10px;"/>
 
 ---
 
-### 🤝 Współpraca
-Chętnie zbuduję **mały proof-of-concept**: 1–2 tygodnie po godzinach, z jasnym celem biznesowym (np. prosty forecast + dashboard).  
-Napisz: **LinkedIn** lub e-mail: `hello@…`
-
----
-
-### 📈 Statystyki (opcjonalnie)
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=acroice&show_icons=true&hide_title=true&theme=transparent" height="140" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=acroice&layout=compact&hide_title=true&theme=transparent" height="140" />
+## 📈 GitHub Stats
+<p align="center">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=acroice&show_icons=true&theme=transparent&hide_title=true" />
+  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=acroice&theme=transparent&hide_border=true" />
 </p>
-
-<!-- Koniec. Prosto, bez przesady. Najpierw małe wygrane, potem dokładamy rzeczy. -->
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=acroice&theme=transparent" />
+</p>
